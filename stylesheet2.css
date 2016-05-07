@@ -103,8 +103,8 @@ body {
 /******* Large devices only ********/
 @media (min-width: 1200px) {
 	.container .jumbotron {
-		background: url('http://i.imgur.com/3iTQfwK.jpg') no-repeat;
-		height: 675px;
+	background: url('http://i.imgur.com/3iTQfwK.jpg') no-repeat;
+	height: 675px;
 	}
 }
 	/****** Medium devices only *******/
@@ -123,7 +123,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 	/* Home Page */
 	.container .jumbotron {
-		background: url('http://i.imgur.com/3iTQfwK.jpg') no-repeat;
+	background: url('http://i.imgur.com/3iTQfwK.jpg') no-repeat;
         height: auto;
         background-color: #000000;
 	}
@@ -135,30 +135,32 @@ body {
 @media (max-width: 767px) {
   /* Header */
   .container .jumbotron {
-		background-color: #000000;
+	background-color: #000000;
 	}
   .navbar-brand {
      padding-top: 10px;
      height: 80px;
 	}
-	.navbar-brand h1 { /* Restaurant name */
-		padding-top: 10px;
-		font-size: 5vw;
-		float: right;
+.navbar-brand h1 { /* Restaurant name */
+	padding-top: 10px;
+	font-size: 5vw;
+	float: right;
 	}
-	.navbar-brand p { /* Kosher cert */
-		font-size: .6em;
-		margin-top: 12px;
+.navbar-brand p { /* Kosher cert */
+	font-size: .6em;
+	margin-top: 12px;
 	}
-	.navbar-brand p img { /* Star-k */
-		height: 20px;
+.navbar-brand p img { /* Star-k */
+	height: 20px;
 
 	}
-	#collapsable-nav a { /* Collapsed nav menu glyph */
-		font-size: 1.2em;
+	
+#collapsable-nav a { /* Collapsed nav menu glyph */
+	font-size: 1.2em;
 	}
-	#collapsable-nav a span {
-		font-size: 1em;
-		margin-right: 5px;
+	
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
 	}
 }
