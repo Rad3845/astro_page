@@ -137,6 +137,10 @@ body {
   .container .jumbotron {
 	background-color: #000000;
 	}
+img {
+	height: 250px;
+	width: 100%;
+}
   .navbar-brand {
      padding-top: 10px;
      height: 80px;
