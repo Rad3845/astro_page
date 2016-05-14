@@ -1,0 +1,58 @@
+body { 
+	background: transparent url('http://i.imgur.com/fGL460W.jpg') repeat;
+	
+}
+#header-nav {
+	background-color: #00070a;
+	border-radius: 0;
+	border: 0;
+}
+h1 {
+	text-shadow: 2px 2px yellow;
+	text-align: center;
+	font-family: "grecian-light-face",sans-serif;
+	border-style: double;
+
+}
+.container .jumbotron {
+	margin-top: 30px;
+	padding: 0;
+	box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid 3f0c1f;
+}
+
+#specials-tile, #astro-tile, #blow-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #D2DA8C;
+	overflow: hidden;
+}
+#specials-tile:hover, #astro-tile:hover, #blow-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#specials-tile {
+	background: url('http://i.imgur.com/6PKG5Oj.jpg?2') no-repeat;
+	background-position: center;
+}
+#astro-tile {
+	background: url('http://i.imgur.com/6ikPiki.jpg?1') no-repeat;
+	background-position: center;
+}
+#blow-tile {
+	background: url('http://i.imgur.com/tVi1dwP.jpg?1') no-repeat;
+	background-position: center;
+}
+#specials-tile span, #astro-tile span, #blow-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
