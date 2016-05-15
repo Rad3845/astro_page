@@ -56,3 +56,41 @@ h1 {
 	color: #fff;
 	opacity: .8;
 }
+/*--Thorium.html tile sec--*/
+#atom-tile, #chain-tile, #cast-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #D2DA8C;
+	overflow: hidden;
+}
+.row div span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+
+}
+#atom-tile {
+	background: url('http://i.imgur.com/YvRnqqm.jpg?1') no-repeat;
+	background-position: center;
+
+}
+#chain-tile {
+	background: url('http://i.imgur.com/ySyfA56.jpg') no-repeat;
+	background-position: center;
+
+}
+#cast-tile {
+	background: url('http://i.imgur.com/Q11UqIr.jpg?1') no-repeat;
+	background-position: center;
+
+}
+
