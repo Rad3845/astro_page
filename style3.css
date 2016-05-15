@@ -93,4 +93,31 @@ h1 {
 	background-position: center;
 
 }
+/*---Neptunium.html tile Section---*/
+#alloy-tile, #tin-tile, #crystal-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #D2DA8C;
+	overflow: hidden;
+
+}
+#alloy-tile {
+	background: url('http://i.imgur.com/YvRnqqm.jpg?1') no-repeat;
+	background-position: center;
+
+
+}
+#tin-tile {
+	background: url('http://i.imgur.com/UlsXDl7.jpg?1') no-repeat;
+	background-position: center;
+
+}
+#crystal-tile {
+	background: url('http://i.imgur.com/3hu5Jif.jpg?1') no-repeat;
+	background-position: center;
+
+}
+
 
