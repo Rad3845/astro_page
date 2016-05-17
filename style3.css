@@ -2,6 +2,20 @@ body {
 	background: transparent url('http://i.imgur.com/fGL460W.jpg') repeat;
 	
 }
+p {
+	font-family:'Lobster', cursive;
+	color: #D2DA8C;
+	text-align: center;
+	text-indent: 1.5em;
+	text-shadow: 1px 1px red;
+	font-size: 2em;
+}
+
+#middle {
+	text-align: center;
+	color: #D2DA8C;
+	font-weight: bold;
+}
 #header-nav {
 	background-color: #00070a;
 	border-radius: 0;
