@@ -10,6 +10,9 @@ p {
 	text-shadow: 1px 1px red;
 	font-size: 2em;
 }
+#black {
+	color: #000;
+}
 
 #middle {
 	text-align: center;
