@@ -19,7 +19,8 @@ p {
 	position: relative;
 }
 #move {
-	text-indent: 1.5em;
+	position: relative;
+
 }
 #black {
 	color: #000;
