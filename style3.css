@@ -1,13 +1,13 @@
 body { 
-	background: transparent url('http://i.imgur.com/fGL460W.jpg') repeat;
+	background: transparent url('http://i.imgur.com/3iTQfwK.jpg') repeat;
 	
 }
 p {
 	font-family:'Lobster', cursive;
-	color: #D2DA8C;
+	color: #6495ED;
 	text-align: center;
 	text-indent: 1.5em;
-	text-shadow: 1px 1px red;
+	text-shadow: 1px 1px #000000;
 	font-size: 2em;
 }
 #small {
@@ -25,20 +25,16 @@ p {
 	color: #000;
 }
 
-#middle {
-	text-align: center;
-	color: #D2DA8C;
-	font-weight: bold;
-}
+
 #header-nav {
-	background-color: #00070a;
+	background-color: #000000;
 	border-radius: 0;
 	border: 0;
 }
 h1 {
-	text-shadow: 2px 2px yellow;
+	text-shadow: 2px 2px #6495ED;
 	text-align: center;
-	font-family: "grecian-light-face",sans-serif;
+	font-family: "refrigerator-deluxe",sans-serif;
 	border-style: double;
 
 }
