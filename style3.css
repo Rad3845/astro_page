@@ -10,6 +10,14 @@ p {
 	text-shadow: 1px 1px red;
 	font-size: 2em;
 }
+#small {
+	font-size: 19px;
+	font-family: Impact;
+
+}
+#pull {
+	position: relative;
+}
 #move {
 	text-indent: 1.5em;
 }
