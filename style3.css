@@ -10,6 +10,65 @@ p {
 	text-shadow: 1px 1px #000000;
 	font-size: 2em;
 }
+ul {
+    list-style-type: cjk-heavenly-stem;
+    margin-left: 30px;
+    padding: 0px;
+    border: 1px solid #555;
+   
+}
+li a {
+	padding: 8px 8px 8px 1px;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid red;
+}
+#lime {
+	color: #32CD32;
+}
+#purple {
+	color: #800080;
+}
+#orange {
+	color: #FFA500;
+}
+#red {
+	color: #FF0000;
+}
+#one {
+	color: #A1C426;
+}
+#two {
+	color: #FF69B4;
+}
+#three {
+	color: #E6E6FA;
+}
+#four {
+	color: #008000;
+}
+#five {
+	color: #800080;
+}
+#six {
+	color: #FFFF00;
+}
+#seven {
+	color: #BC8F8F;
+}
+#eight {
+	color: #C0C0C0;
+}
+#nine {
+	color: #FFA500;
+}
+#ten {
+	color: #48D1CC;
+}
+#eleven {
+	color: #20B2AA;
+}
 #small {
 	font-size: 19px;
 	font-family: Impact;
