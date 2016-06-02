@@ -34,7 +34,7 @@ body {
     box-shadow: 0 0 50px #010000;
     border: 2px double #010000;
 }
-#meet-molly {
+.meet-molly {
     height: 60px;
     width: 172px;
     background-color: #6495ED;
