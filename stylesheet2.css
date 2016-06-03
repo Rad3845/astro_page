@@ -77,6 +77,19 @@ body {
 #nav-list a span {
 	font-size: 1.8em;
 }
+#phone {
+	margin-top: 5px;
+}
+#phone a { /* phone number */
+	color: #0A0dd8;
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div { /* We Devliver */
+	color: #0A0dd8;
+	text-align: right;
+	padding-right: 15px;
+}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #0A0dd8;
@@ -90,15 +103,15 @@ body {
 /******* Large devices only ********/
 @media (min-width: 1200px) {
 	.container .jumbotron {
-	background: url('http://i.imgur.com/3iTQfwK.jpg') no-repeat;
-	height: 675px;
+		background: url('http://i.imgur.com/VvEuXu1.jpg') no-repeat;
+		height: 675px;
 	}
 }
 	/****** Medium devices only *******/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-  	background: url('http://i.imgur.com/3iTQfwK.jpg');
+  	background: url('http://i.imgur.com/6ikPiki.jpg?1');
   	width: 100px;
   	height: 100px;
   	margin: 5px 5px 5px 0;
@@ -110,7 +123,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 	/* Home Page */
 	.container .jumbotron {
-	background: url('http://i.imgur.com/3iTQfwK.jpg') no-repeat;
+		background: url('http://i.imgur.com/VvEuXu1.jpg') no-repeat;
         height: auto;
         background-color: #000000;
 	}
@@ -122,36 +135,30 @@ body {
 @media (max-width: 767px) {
   /* Header */
   .container .jumbotron {
-	background-color: #000000;
+		background-color: #000000;
 	}
-img {
-	height: 250px;
-	width: 100%;
-}
   .navbar-brand {
      padding-top: 10px;
      height: 80px;
 	}
-.navbar-brand h1 { /* Restaurant name */
-	padding-top: 10px;
-	font-size: 5vw;
-	float: right;
+	.navbar-brand h1 { /* Restaurant name */
+		padding-top: 10px;
+		font-size: 5vw;
+		float: right;
 	}
-.navbar-brand p { /* Kosher cert */
-	font-size: .6em;
-	margin-top: 12px;
+	.navbar-brand p { /* Kosher cert */
+		font-size: .6em;
+		margin-top: 12px;
 	}
-.navbar-brand p img { /* Star-k */
-	height: 20px;
+	.navbar-brand p img { /* Star-k */
+		height: 20px;
 
 	}
-	
-#collapsable-nav a { /* Collapsed nav menu glyph */
-	font-size: 1.2em;
+	#collapsable-nav a { /* Collapsed nav menu glyph */
+		font-size: 1.2em;
 	}
-	
-#collapsable-nav a span {
-	font-size: 1em;
-	margin-right: 5px;
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
 	}
 }
