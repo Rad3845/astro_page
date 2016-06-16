@@ -10,6 +10,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-family: Papyrus;
+	text-shadow: 1px 1px #005B22;
 }
 #header-nav {
 	background-color: #000000;
