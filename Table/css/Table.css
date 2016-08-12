@@ -19,6 +19,7 @@ body {
     padding: 8px;
     color: #000000;
     text-shadow: 1px 1px 1px White;
+    font-size: 19px;
 
 }
 
@@ -32,5 +33,6 @@ body {
     background-color: #708090;
     color: White;
     text-shadow: 1px 1px 1px #0000FF;
+    font-size: 19px;
 
 }
