@@ -1,0 +1,36 @@
+body {
+    background-image: url(http://i.imgur.com/uB7shjr.jpg);
+}
+.one {
+    color: #000000;
+    text-decoration: none; 
+}
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #2A2793;
+    text-align: left;
+    padding: 8px;
+    color: #000000;
+    text-shadow: 1px 1px 1px White;
+
+}
+
+#customers tr:nth-child(even){background-color: #708090}
+
+#customers tr:hover {background-color: #2A2793;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #708090;
+    color: White;
+    text-shadow: 1px 1px 1px #0000FF;
+
+}
