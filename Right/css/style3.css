@@ -1,0 +1,282 @@
+body { 
+	background-image: url(http://i.imgur.com/uB7shjr.jpg);
+	
+}
+a:hover {
+	background-color: red;
+}
+
+p {
+	font-family:'Lobster', cursive;
+	color: #000000;
+	text-align: center;
+	text-indent: 1.5em;
+	text-shadow: 1px 1px red;
+	font-size: 2em;
+}
+ul {
+    list-style-type: cjk-heavenly-stem;
+    margin-left: 30px;
+    padding: 0px;
+    border: 1px solid #555;
+   
+}
+li a {
+	padding: 8px 8px 8px 1px;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid red;
+}
+/* Link Colors */
+.black {
+	color: #E6E6FA;
+	text-shadow: 2px 2px #000000;
+}
+#zero {
+	color: #32CD32;
+	text-shadow: 2px 2px #000000;
+}
+#lime {
+	color: #32CD32;
+	text-shadow: 2px 2px #000000;
+}
+#purple {
+	color: #800080;
+	text-shadow: 2px 2px #000000;
+}
+#orange {
+	color: #FFA500;
+	text-shadow: 2px 2px #000000;
+}
+#red {
+	color: #FF0000;
+	text-shadow: 2px 2px #000000;
+}
+#one {
+	color: #A1C426;
+	text-shadow: 2px 2px #000000;
+}
+#two {
+	color: #FF69B4;
+	text-shadow: 2px 2px #000000;
+}
+#three {
+	color: #E6E6FA;
+	text-shadow: 2px 2px #000000;
+}
+#four {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+#five {
+	color: #800080;
+	text-shadow: 2px 2px #000000;
+}
+#six {
+	color: #FFFF00;
+	text-shadow: 2px 2px #000000;
+}
+#seven {
+	color: #BC8F8F;
+	text-shadow: 2px 2px #000000;
+}
+#eight {
+	color: #C0C0C0;
+	text-shadow: 2px 2px #000000;
+}
+#nine {
+	color: #FFA500;
+	text-shadow: 2px 2px #000000;
+}
+#ten {
+	color: #48D1CC;
+	text-shadow: 2px 2px #000000;
+}
+#eleven {
+	color: #20B2AA;
+	text-shadow: 2px 2px #000000;
+}
+#off {
+	color: #E6E6FA;
+	text-shadow: 2px 2px #000000;
+}
+#on {
+	color: #A1C426;
+	text-shadow: 2px 2px #000000; 
+}
+#easy {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+#sub {
+	color: #E6E6FA;
+	text-shadow: 2px 2px #000000;
+}
+#rub {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+#hub {
+	color: #20B2AA;
+	text-shadow: 2px 2px #000000;
+}
+#club {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+/* End Link Colors */
+
+/* ul postion */
+#small {
+	font-size: 19px;
+	font-family: Impact;
+
+}
+#pull {
+	position: relative;
+}
+
+#move {
+	position: relative;
+
+}
+#black {
+	color: #000;
+}
+/* ul postion end */
+
+
+#header-nav {
+	background-image: url(http://i.imgur.com/uB7shjr.jpg);
+	border-radius: 0;
+	border: 0;
+}
+h1 {
+	text-shadow: 2px 2px #6495ED;
+	text-align: center;
+	font-family: "refrigerator-deluxe",sans-serif;
+	border-style: double;
+
+}
+.container .jumbotron {
+	margin-top: 30px;
+	padding: 0;
+	box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid 3f0c1f;
+}
+/*--Right.html Tile section--*/
+#specials-tile, #astro-tile, #blow-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #D2DA8C;
+	overflow: hidden;
+}
+#specials-tile:hover, #astro-tile:hover, #blow-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#specials-tile {
+	background: url('http://i.imgur.com/6PKG5Oj.jpg?2') no-repeat;
+	background-position: center;
+}
+#astro-tile {
+	background: url('http://i.imgur.com/6ikPiki.jpg?1') no-repeat;
+	background-position: center;
+}
+#blow-tile {
+	background: url('http://i.imgur.com/tVi1dwP.jpg?1') no-repeat;
+	background-position: center;
+}
+#specials-tile span, #astro-tile span, #blow-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+/*--End Right.html Tile Section--*/
+
+/*--Thorium.html tile sec--*/
+#atom-tile, #chain-tile, #cast-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #D2DA8C;
+	overflow: hidden;
+}
+.row div span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+
+}
+#atom-tile {
+	background: url('http://i.imgur.com/YvRnqqm.jpg?1') no-repeat;
+	background-position: center;
+
+}
+#chain-tile {
+	background: url('http://i.imgur.com/ySyfA56.jpg') no-repeat;
+	background-position: center;
+
+}
+#cast-tile {
+	background: url('http://i.imgur.com/Q11UqIr.jpg?1') no-repeat;
+	background-position: center;
+
+}
+/*--End Thorium.html tile sec--*/
+
+/*---Neptunium.html tile Section---*/
+#alloy-tile, #tin-tile, #crystal-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #D2DA8C;
+	overflow: hidden;
+
+}
+#alloy-tile {
+	background: url('http://i.imgur.com/YvRnqqm.jpg?1') no-repeat;
+	background-position: center;
+
+
+}
+#tin-tile {
+	background: url('http://i.imgur.com/UlsXDl7.jpg?1') no-repeat;
+	background-position: center;
+
+}
+#crystal-tile {
+	background: url('http://i.imgur.com/3hu5Jif.jpg?1') no-repeat;
+	background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
