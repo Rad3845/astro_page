@@ -5,6 +5,17 @@ body {
 	font-family: Impact;
 }
 
+h1 {
+  color: #B0E0E6;
+  text-shadow: 3px 3px 4px black;
+}
+
+h2 {
+   color: #B0E0E6;
+  text-shadow: 3px 3px 4px black;
+
+}
+
 /** HEADER **/
 #header-nav {
 	background-image: url('http://i.imgur.com/HZ3kgvZ.jpg');
