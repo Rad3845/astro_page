@@ -34,4 +34,6 @@ button {
     margin: auto;
     text-align: center;
     text-shadow: 1px 1px #FFD700;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px 5px;	
 }
