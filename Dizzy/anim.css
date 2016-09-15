@@ -9,7 +9,7 @@ h1 {
   display: block;
   width: 100%;
   padding: 40px;
-  /*line-height: 1.5;*/
+  line-height: 1.5;
   font:900 8em 'Concert One', sans-serif;
   text-transform: uppercase;
   position: absolute;
