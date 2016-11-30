@@ -5,7 +5,7 @@ h1 {
 * { box-sizing:border-box; }
 
 body {
-  background-image: url('http://i.imgur.com/UshLSLc.jpg');
+  background-color: #000000;
   overflow: hidden;
   text-align: center;
 }
@@ -31,7 +31,7 @@ h1 {
   font:900 8em 'Concert One', sans-serif;
   text-transform: uppercase;
   position: absolute;
-  color: #FFF8DC;
+  color: #008000;
 }
 
 @keyframes glow {
