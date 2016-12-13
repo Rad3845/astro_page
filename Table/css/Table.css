@@ -2,9 +2,6 @@ body {
     background-image: url('/Table/images/Web%20Document4.jpg');
 }
 
-background-image {
-    height: 450;
-}
 
 #two {
     color: #000000;
@@ -40,7 +37,7 @@ background-image {
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-image: url(/Table/images/Web%20Document4.jpg);
+    background-image: url('/Table/images/Web%20Document4.jpg');
     color: White;
     text-shadow: 2px 2px 2px #309511;
     font-size: 30px;
