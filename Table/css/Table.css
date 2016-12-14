@@ -1,5 +1,5 @@
 body {
-    background-image: url('Table/images/Web%20Document4.jpg');
+    background-image: url('astro_page/Table/images/Web Document4.jpg');
 }
 
 
@@ -37,7 +37,7 @@ body {
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-image: url('Table/images/Web%20Document4.jpg');
+    background-image: url('astro_page/Table/images/Web Document4.jpg');
     color: White;
     text-shadow: 2px 2px 2px #309511;
     font-size: 30px;
