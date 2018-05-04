@@ -82,7 +82,7 @@ header a:hover {
 
 #showcase {
 	min-height: 400px;
-	background:url(../astro_page/Miko/images/Miko@.jpg) repeat;
+	background:url(./astro_page/Miko/images/Miko@.jpg) repeat;
 	text-align: center;
 	text-shadow: 2px 2px #FF69B4;
 	color: #ffffff;
