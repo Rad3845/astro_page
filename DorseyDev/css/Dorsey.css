@@ -1,0 +1,25 @@
+body {
+	background-image: url(../images/Dorsey.jpg);
+}
+h1 {
+	text-shadow: 2px 1px #000000;
+	text-align: center;
+	color:  #3B3168;
+}
+
+footer {
+	padding: 0px;
+	margin-top: 0px;
+	color: #000000;
+	background-color: #3B3168;
+	text-align: center;
+}
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}
