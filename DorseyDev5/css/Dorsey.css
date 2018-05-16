@@ -18,6 +18,8 @@ footer {
 	.container, #showcase, iframe,
 	h1, p {
 		float: none;
+		text-align: center;
+		width: 100%;
 
 	}
 }
