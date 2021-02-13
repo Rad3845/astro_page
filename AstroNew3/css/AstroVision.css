@@ -1,0 +1,20 @@
+body {
+  background-image:url(../images/ProfoAstro.jpg);
+  background-repeat: no-repeat;
+  background-size: auto; 
+
+}
+h1 {
+	color: #000008;
+	font-size: 40px;
+	text-shadow: 2px 1px #EBEDED;
+}
+iframe {
+	border: #000000 4px solid;
+
+}
+.footer {
+	color: #000000;
+	font-size: 20px;
+	text-shadow: 1px 1px #EBEDED;
+}
