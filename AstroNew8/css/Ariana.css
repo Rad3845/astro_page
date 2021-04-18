@@ -51,3 +51,9 @@ h1:nth-child(7){ transform:translateZ(30px); }
 h1:nth-child(8){ transform:translateZ(35px); }
 h1:nth-child(9){ transform:translateZ(40px); }
 h1:nth-child(10){ transform:translateZ(45px); }
+
+.footer {
+  color: #000000;
+  font-size: 20px;
+  text-shadow: 1px 1px #EBEDED;
+}
