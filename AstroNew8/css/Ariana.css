@@ -32,7 +32,7 @@ h1 {
   font:900 8em 'Concert One', sans-serif;
   text-transform: uppercase;
   position: absolute;
-  color: #dc143c;
+  color: #ffd700;
 }
 
 @keyframes glow {
