@@ -6,24 +6,24 @@
   --color-surface: black;
   --bg: linear-gradient(
     to bottom,
-    color-mix(in srgb, var(--color-quaternary), black 70%),
+    color-mixin srgb, var(--color-quaternary), black 70%),
     var(--color-surface)
-  );
+  ;
   --color-on-surface: var(--color-primary);
-  @media (any-pointer: fine) {
+  @media any-pointer: fine 
     --icon-filter: saturate(3.4) brightness(0.5) invert(1);
     --ripple-filter: blur(1rem);
-  }
+  
   --hover-filter: brightness(1.2);
 }
 
 .vision-ui {
   --color-surface-container: rgba(255, 255, 255, 0.35);
   --color-on-surface: white;
-  @media (any-pointer: fine) {
+  @media any-pointer: fine 
     --icon-filter: saturate(0.4);
     --ripple-filter: filter(0.2rem);
-  }
+  
 
   --hover-filter: brightness(1.5);
 }
@@ -49,7 +49,7 @@
   position: relative;
   align-items: center;
 
-  .column {
+  .column 
     margin: 0 -0.2vmin;
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@
   @include hover;
   cursor: pointer;
 
-  &:after {
+  &:after 
     content: var(--icon);
     display: grid;
     place-items: center;
@@ -171,10 +171,10 @@
 }
 
 .container {
-  &.show-ripple {
+  &.show-ripple 
     pointer-events: none;
 
-    .hexagon {
+    .hexagon 
       cursor: default;
       --duration: 0.45s;
       animation: ripple var(--duration) ease-in-out;
@@ -183,7 +183,7 @@
         calc(var(--duration) * var(--ripple-factor) / 100)
       );
       animation-delay: calc(var(--ripple-factor) * 8ms);
-    }
+    
   }
 }
 
@@ -202,7 +202,7 @@
   cursor: pointer;
   font-size: 2vmin;
 
-  &:after {
+  &:after 
     @include hexagon-base;
     @include hexagon-shape;
     display: grid;
@@ -219,7 +219,7 @@
   }
 
   &.checked {
-    &:after {
+    &:after 
       transform: translateX(2vmin);
       content: "🕶️";
     }
@@ -234,7 +234,7 @@ body {
   color: var(--color-on-surface);
   overflow: hidden;
 
-  &:before {
+  &:before 
     content: "";
     position: absolute;
     inset: 0;
@@ -249,7 +249,7 @@ body {
 }
 
 .vision-ui {
-  body:before {
+  body:before 
     opacity: 1;
     filter: blur(0);
   }
@@ -268,7 +268,7 @@ a.labs-follow-me {
   bottom: .5vh;
   top: unset;
   text-align: center;
-  svg {
+  svg 
       width: 10vmin;
   }
 }
